@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-body{
-    background-color: rgba(160, 157, 157, 0.171);
+
+body {
+    background-color: rgba(100, 96, 96, 0.171);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     display: flex;
@@ -16,44 +17,49 @@ body{
     height: 100vh;
 
 }
-.login img{
+
+.login img {
     width: 30px;
     height: 30px;
     margin: 0 15px -4px 25px;
 }
 
 
-.login{
+.login {
     width: 400px;
     height: 700px;
     background: #ecf0f3;
     /* justify-content: center; */
     /* align-items: center; */
     box-shadow: 13px 13px 20px #c5c1c1,
-                -13px -13px 20px #ffffff;
+        -13px -13px 20px #ffffff;
     border-radius: 40px;
     padding: 60px 35px 35px 35px;
 }
-.logo{
+
+.logo {
     background: url(user-circle-svgrepo-com.svg);
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background-size: cover;
     margin: 0 auto;
-    box-shadow: 0 0 0 2px #ecf0f3 , 0 0 0 5px #ecf0f3 , 8px 8px 15px #afaaa7 , -8px -8px 15px #ffffff;
+    box-shadow: 0 0 0 2px #ecf0f3, 0 0 0 5px #ecf0f3, 8px 8px 15px #afaaa7, -8px -8px 15px #ffffff;
 }
-.title{
+
+.title {
     font-size: 30px;
     text-align: center;
     color: #2c3e50;
     margin: 20px 0 10px 0;
 }
-.forms{
+
+.forms {
     width: 100%;
-    padding: 75px 5px 5px 5px ;    
+    padding: 75px 5px 5px 5px;
 }
-.forms input{
+
+.forms input {
     border: none;
     background: none;
     font-size: 18px;
@@ -61,13 +67,16 @@ body{
     outline: none;
 
 }
-.user , .pass{
+
+.user,
+.pass {
     margin-bottom: 30px;
     border-radius: 25px;
     box-shadow: 8px 8px 8px #cbced1,
-                -8px -8px 8px #ffffff;
+        -8px -8px 8px #ffffff;
 }
-.loginbtn{
+
+.loginbtn {
     border: none;
     cursor: pointer;
     width: 100%;
@@ -78,17 +87,20 @@ body{
     font-weight: 700;
     color: #ffffff;
     box-shadow: 3px 3px 8px #cbced1,
-                -3px -3px 8px #ffffff;
+        -3px -3px 8px #ffffff;
 }
-.loginbtn:hover{
+
+.loginbtn:hover {
     background: #0e4c75;
     transition: 0.5s;
 }
-.register{
+
+.register {
     text-align: center;
     margin-top: 20px;
 }
-.register a{
+
+.register a {
     text-decoration: none;
     color: #1635339f;
     font-weight: 700;
