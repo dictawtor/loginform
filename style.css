@@ -21,7 +21,9 @@ body {
 .login img {
     width: 30px;
     height: 30px;
-    margin: 0 15px -4px 25px;
+    margin: 0 10px -10px 20px;
+
+    
 }
 
 
@@ -29,22 +31,21 @@ body {
     width: 400px;
     height: 700px;
     background: #ecf0f3;
-    /* justify-content: center; */
-    /* align-items: center; */
-    box-shadow: 13px 13px 20px #c5c1c1,
-        -13px -13px 20px #ffffff;
+    box-shadow: 13px 13px 20px #cbced1,
+        -13px -13px 20px #ffffff ,
+        13px 13px 20px #c5c1c1;
     border-radius: 40px;
     padding: 60px 35px 35px 35px;
 }
-
 .logo {
-    background: url(user-circle-svgrepo-com.svg);
+    background: url(DeWatermark.ai_1741436624220.png);
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background-size: cover;
+    background-repeat: no-repeat;
     margin: 0 auto;
-    box-shadow: 0 0 0 2px #ecf0f3, 0 0 0 5px #ecf0f3, 8px 8px 15px #afaaa7, -8px -8px 15px #ffffff;
+    box-shadow:inset 0 0 0 2px #ecf0f3, 0 0 0 5px #ecf0f3, 8px 8px 15px #afaaa7, -8px -8px 15px #ffffff;
 }
 
 .title {
@@ -52,6 +53,11 @@ body {
     text-align: center;
     color: #2c3e50;
     margin: 20px 0 10px 0;
+    text-shadow : 0 0 5px #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;    
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace; 
 }
 
 .forms {
@@ -72,8 +78,9 @@ body {
 .pass {
     margin-bottom: 30px;
     border-radius: 25px;
-    box-shadow: 8px 8px 8px #cbced1,
-        -8px -8px 8px #ffffff;
+    box-shadow:  inset    5px 3px 13px #cbced1,
+        5px 5px 5px #ffffff;
+
 }
 
 .loginbtn {
@@ -81,18 +88,25 @@ body {
     cursor: pointer;
     width: 100%;
     height: 60px;
-    background: #39ddd2;
+    background: #215b91;
     border-radius: 30px;
     font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
     color: #ffffff;
     box-shadow: 3px 3px 8px #cbced1,
         -3px -3px 8px #ffffff;
+        transition: 0.5s;
+        transition-delay: 0.20s;
+    
 }
 
 .loginbtn:hover {
-    background: #0e4c75;
+    background: #29a7ce;
     transition: 0.5s;
+    transition-delay: 0.20s;
+    
+
 }
 
 .register {
